@@ -2,7 +2,7 @@
   "name": "covid-tracker-phase-1",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/berryq460/covid-tracker-phase-1.git",
+  "repository": "https://github.com/katfernandez22/new-covid-tracker-phase-1",
   "author": "katfernandez22 <60719712+katfernandez22@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel index.html"
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "axios": "^0.21.0"
