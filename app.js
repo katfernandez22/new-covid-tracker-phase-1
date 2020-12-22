@@ -24,7 +24,8 @@ function getCovidStats() {
 }
 /////Mexico
 function getCovidStats2() {
-		axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/180').then(resp => { //call that data resp and do stuff with it inside curly brace
+  let mexicoUrl = 'https://coronavirus-tracker-api.herokuapp.com/v2/locations/180';
+		axios.get(mexicoUrl).then(resp => { //call that data resp and do stuff with it inside curly brace
 			return resp.data
 		})
 	.then(function(data) {
@@ -45,7 +46,8 @@ function getCovidStats2() {
 }
 //PEru
 function getCovidStats3() {
-	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/205').then(resp => { //call that data resp and do stuff with it inside curly brace
+  let peruUrl = 'https://coronavirus-tracker-api.herokuapp.com/v2/locations/205'
+	axios.get(peruUrl).then(resp => { //call that data resp and do stuff with it inside curly brace
 		return resp.data
 	})
 	.then(function(data) {
@@ -66,7 +68,8 @@ function getCovidStats3() {
 }
 //Australia
 function getCovidStats4() {
-	axios.get('https://coronavirus-tracker-api.herokuapp.com/v2/locations/8').then(resp => { //call that data resp and do stuff with it inside curly brace
+  let australiaUrl = 'https://coronavirus-tracker-api.herokuapp.com/v2/locations/8'
+	axios.get(australiaUrl).then(resp => { //call that data resp and do stuff with it inside curly brace
 		return resp.data
 	})
 	.then(function(data) {
