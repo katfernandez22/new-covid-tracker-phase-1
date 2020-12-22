@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: #0a0076;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 10vw;
+
+  
+} 
+h2 {
+
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: 400 !important;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.logo {
+  width: 7rem;
+}
+
+.main {
+  background-image: url(./images/background-image.jpeg);
+  background-size: 100% 135%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-inner {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.subtitle {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.info-box {
+  background-color: white;
+  text-align: center;
+  border: 10px solid #0a0076;
+  border-radius: 20px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h2.subtitle {
+    font-size: 18px;
+  }
+  h1.title {
+    font-size: 28px;
+    margin-top: 40px !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  h2.subtitle {
+    font-size: 23px;
+  }
+  h1.title {
+    font-size: 35px;
+    margin-top: 35px !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h2.subtitle {
+    font-size: 30px;
+  }
+  h1.title {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1228px) {
+  h3 {
+    font-size: 21px !important;
+  }
+}
